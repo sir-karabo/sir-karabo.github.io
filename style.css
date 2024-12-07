@@ -1,0 +1,20 @@
+.pane.active {
+  flex-grow: 10;
+  max-width: 100%;
+}
+.pane.active .background {
+  transform: scale(1.25, 1.25);
+}
+@media (min-width: 640px) {
+  .pane.active .label {
+    transform: translateX(0.5rem);
+  }
+}
+.pane.active .label .content > * {
+  opacity: 1;
+  transform: translateX(0);
+}
+.pane.active .shadow {
+  opacity: 0.75;
+  transform: translateY(0);
+}

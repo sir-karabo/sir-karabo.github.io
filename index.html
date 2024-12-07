@@ -1,162 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <title>Tailwind Accordion</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.15.4/css/all.css'><link rel="stylesheet" href="./style.css">
 
-  <!--=============== FAVICON ===============-->
-  <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
-
-  <!--=============== REMIXICONS ===============-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" />
-
-  <!--=============== SWIPER CSS ===============-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.min.css" />
-
-  <!--=============== CSS ===============-->
-  <link rel="stylesheet" href="assets/css/style.css" />
-
-  <title>Mr NK Magongwa Network Hub</title>
 </head>
 <body>
-  <!--==================== HEADER ====================-->
-  <header class="header" id="header">
-    <nav class="nav container">
-      <a href="#" class="nav__logo">
-        <!-- <img src="assets/img/logo.png" class="nav__logo-img" alt="Logo" /> -->
-        Mr Nhlamulo Karabo
-      </a>
-      <div class="nav__menu" id="nav-menu">
-        <ul class="nav__list">
-          <li><a href="#" class="nav__link">Home</a></li>
-          <li><a href="#" class="nav__link">Career</a></li>
-          <li><a href="#" class="nav__link">Consultation</a></li>
-          <li><a href="#" class="nav__link">Commerce</a></li>
-          <li><a href="#" class="nav__link">Contact</a></li>
-        </ul>
-        <!-- Close button -->
-        <div class="nav__close" id="nav-close"><i class="ri-close-line"></i></div>
-      </div>
-      <!-- Toggle button -->
-      <div class="nav__toggle" id="nav-toggle"><i class="ri-menu-line"></i></div>
-    </nav>
-  </header>
-
-  <!--==================== MAIN ====================-->
-  <main class="main">
-    <!--==================== HOME ====================-->
-    <section class="home">
-      <div class="home__swiper swiper">
-        <div class="swiper-wrapper">
-          <!-- Article 1 -->
-          <article class="home__article network__red swiper-slide">
-            <div class="home__panel-1"></div>
-            <div class="home__panel-2"></div>
-            <div class="home__content container">
-              <div class="home__data">
-                <div class="home__titles">
-                  <h3 class="home__subtitle">Let's</h3>
-                  <h1 class="home__title">Connect</h1>
-                </div>
-                <div class="home__image">
-                  <img src="assets/img/Career.png" alt="Career" class="home__img" />
-                </div>
-              </div>
-              <div class="home__info">
-                <div class="home__specs">
-                  <span>Career</span>
-                  <span>Online</span>
-                  <span>Resume</span>
-                </div>
-                <a href="https://sirnhlamulo.github.io/curiculum_vitae/" class="home__button">
-                  <span>Explore</span><i class="ri-arrow-right-circle-line"></i>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Article 2 -->
-          <article class="home__article network__green swiper-slide">
-            <div class="home__panel-1"></div>
-            <div class="home__panel-2"></div>
-            <div class="home__content container">
-              <div class="home__data">
-                <div class="home__titles">
-                  <h3 class="home__subtitle">Let's</h3>
-                  <h1 class="home__title">Create.</h1>
-                </div>
-                <div class="home__image">
-                  <img src="assets/img/Consult.png" alt="Consult" class="home__img" />
-                </div>
-              </div>
-              <div class="home__info">
-                <div class="home__specs"><span>View</span><span>Online</span><span>Consultaion</span></div>
-                <a href="https://sirnhlamulo.github.io/engineer" class="home__button">
-                  <span>Discover</span><i class="ri-arrow-right-circle-line"></i>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Article 3 -->
-          <article class="home__article network__blue swiper-slide">
-            <div class="home__panel-1"></div>
-            <div class="home__panel-2"></div>
-            <div class="home__content container">
-              <div class="home__data">
-                <div class="home__titles">
-                  <h3 class="home__subtitle">Let's</h1>
-                  <h1 class="home__title">Consult.</h1>
-                </div>
-                <div class="home__image">
-                  <img src="assets/img/Commerce.png" alt="Commerce" class="home__img" />
-                </div>
-              </div>
-              <div class="home__info">
-                <div class="home__specs"><span>View</span><span>Commerce</span><span>Options</span></div>
-                <a href="https://sirnhlamulo.github.io/developer" class="home__button">
-                  <span>Venture</span><i class="ri-arrow-right-circle-line"></i>
-                </a>
-              </div>
-            </div>
-          </article>
+<!-- partial:index.partial.html -->
+<div class="antialiased bg-gradient-to-b flex flex-col font-sans from-black items-stretch justify-center h-screen p-2 to-gray-900 sm:flex-row sm:items-center">
+  <div class="flex flex-col flex-grow items-stretch max-w-2xl min-w-md w-full sm:flex-row sm:h-72 sm:overflow-hidden">
+    <div class="active cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+      <div class="absolute background bg-center bg-cover bg-red-500 bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
+      <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
+      <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
+        <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-red-500 w-10"><i class="fas fa-walking"></i></div>
+        <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
+          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Imagine</div>
+          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Chase your dreams</div>
         </div>
       </div>
-      <!-- Home interaction design -->
-      <div class="home__interaction">
-        <div class="home__social">
-          <!-- line -->
-          <div class="home__social-border"></div>
-          <!-- socials -->
-          <a href="https://github.com/sirnhlamulo" target="_blank" class="home__social-link">
-            <i class="ri-github-fill"></i>
-          </a>
-          <a href="https://www.instagram.com/sir.nhlamulo/" target="_blank" class="home__social-link">
-            <i class="ri-instagram-fill"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/sir-nhlamulo/" target="_blank" class="home__social-link">
-            <i class="ri-linkedin-box-line"></i>
-          </a>
-          <!--           
-          <a href="#" target="_blank" class="home__social-link">
-              <i class="ri-whatsapp-fill"></i>
-          </a>          
-          -->          
+    </div>
+    <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+      <div class="absolute background bg-center bg-cover bg-yellow-500 bg-yellow-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
+      <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
+      <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
+        <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-yellow-500 w-10"><i class="fas fa-apple-alt"></i></div>
+        <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
+          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Build</div>
+          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Realize your vision</div>
         </div>
-        <!-- Swiper pagination -->
-        <div class="swiper-pagination"></div>
       </div>
-      
-    </section>
-  </main>
+    </div>
+    <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+      <div class="absolute background bg-center bg-cover bg-green-500 bg-green-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
+      <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
+      <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
+        <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-green-500 w-10"><i class="fas fa-tree"></i></div>
+        <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
+          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Explore</div>
+          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Discover the world</div>
+        </div>
+      </div>
+    </div>
+    <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+      <div class="absolute background bg-center bg-cover bg-blue-500 bg-blue-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
+      <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
+      <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
+        <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-blue-500 w-10"><i class="fas fa-tint"></i></div>
+        <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
+          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Adapt</div>
+          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Embrace the times</div>
+        </div>
+      </div>
+    </div>
+    <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+      <div class="absolute background bg-center bg-cover bg-purple-500 bg-purple-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
+      <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
+      <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
+        <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-purple-500 w-10"><i class="fas fa-palette"></i></div>
+        <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
+          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Inspire</div>
+          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Share your potential</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdn.tailwindcss.com'></script><script  src="./script.js"></script>
 
-  <!--=============== GSAP JS ===============-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-
-  <!--=============== SWIPER JS ===============-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.2/swiper-bundle.min.js"></script>
-
-  <!--=============== MAIN JS ===============-->
-  <script src="assets/js/main.js"></script>
 </body>
 </html>
