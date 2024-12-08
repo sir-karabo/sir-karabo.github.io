@@ -1,4 +1,4 @@
-# Responsive Network Website
+# Responsive Accordion Menu Website
 
 💙 **Connect with me on LinkedIn** if you'd like me to do work for you like this:
 
