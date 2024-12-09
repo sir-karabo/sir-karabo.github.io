@@ -1,3 +1,5 @@
+
+/* Accordion */
 .pane.active {
   flex-grow: 10;
   max-width: 100%;
@@ -9,6 +11,11 @@
   .pane.active .label {
     transform: translateX(0.5rem);
   }
+  /* Custom Sidebar Styling */
+#sidebar {
+  width: 14rem;
+}
+
 }
 .pane.active .label .content > * {
   opacity: 1;
@@ -17,4 +24,9 @@
 .pane.active .shadow {
   opacity: 0.75;
   transform: translateY(0);
+}
+
+/* Custom Sidebar Styling */
+#sidebar {
+  width: 14rem;
 }

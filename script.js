@@ -1,3 +1,13 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const menuToggle = document.getElementById('menu-toggle');
+  const sidebar = document.getElementById('sidebar');
+
+  menuToggle.addEventListener('click', () => {
+    sidebar.classList.toggle('-translate-x-full');
+  });
+});
+
+
 const panes = document.querySelectorAll(".pane");
 let activePaneIndex = 0;
 
@@ -8,18 +18,6 @@ panes.forEach((pane, index) => {
     panes[activePaneIndex].classList.add("active");
   });
 });
- // Hamburger menu toggle
- const hamburgerMenu = document.getElementById("hamburger-menu");
- const mobileMenu = document.getElementById("mobile-menu");
- const closeMenu = document.getElementById("close-menu");
-
- hamburgerMenu.addEventListener("click", () => {
-   mobileMenu.style.transform = "translateX(0)";
- });
-
- closeMenu.addEventListener("click", () => {
-   mobileMenu.style.transform = "translateX(-100%)";
- });
  
 tailwind.config = {
   theme: {

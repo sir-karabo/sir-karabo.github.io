@@ -1,171 +1,239 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Sir Karabo Nhlamulo Career</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel='stylesheet' href='https://pro.fontawesome.com/releases/v5.15.4/css/all.css'><link rel="stylesheet" href="./style.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sir Karabo Nhlamulo Career</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1a202c", // Dark gray
+              secondary: "#2d3748", // Slightly lighter gray
+              accent: "#4a5568", // Accent color
+              highlight: "#2b6cb0", // Blue highlight
+              red: "#f56565", // Red color for sections
+              yellow: "#ecc94b", // Yellow color for sections
+              green: "#48bb78", // Green color for sections
+              blue: "#4299e1", // Blue color for sections
+              purple: "#9f7aea", // Purple color for sections
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-</head><body class="bg-gray-900 text-white">
+  <body class="bg-gray-900 text-white">
+    <!-- Sidebar Navigation -->
+    <div class="flex h-screen">
+      <!-- Sidebar -->
+      <nav
+        id="sidebar"
+        class="fixed inset-y-0 left-1 transform -translate-x-full transition-transform duration-300 bg-gray-900 w-64 p-4 shadow-lg"
+      >
+        <div class="flex items-center space-x-3 rtl:space-x-reverse mb-6">
+          <img src="./images/logo.png" class="h-8" alt="Logo" />
+             <span class="text-lg font-semibold text-white"> Sir . Karabo</span>
+        </div>
+        <ul class="space-y-4">
+          <li>
+            <a
+              href="#"
+              class="block py-2 px-4 rounded text-white hover:bg-highlight"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block py-2 px-4 rounded text-white hover:bg-highlight"
+              >Profile</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block py-2 px-4 rounded text-white hover:bg-highlight"
+              >Resume</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block py-2 px-4 rounded text-white hover:bg-highlight"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block py-2 px-4 rounded text-white hover:bg-highlight"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block py-2 px-4 rounded text-white hover:bg-highlight"
+              >Freelance</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="block py-2 px-4 rounded text-white hover:bg-highlight"
+              >Support</a
+            >
+          </li>
+        </ul>
+      </nav>
 
- <!-- Navigation -->
- <nav
- class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700"
->
- <div
-   class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
- >
-   <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-     <img
-       src="https://flowbite.com/docs/images/logo.svg"
-       class="h-8"
-       alt="Flowbite Logo"
-     />
-     <span
-       class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
-       >@Sir . Karabo</span
-     >
-   </a>
-   <button
-     data-collapse-toggle="navbar-hamburger"
-     type="button"
-     class="inline-flex items-center justify-center p-2 w-10 h-10 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-     aria-controls="navbar-hamburger"
-     aria-expanded="false"
-   >
-     <span class="sr-only">Open main menu</span>
-     <svg
-       class="w-5 h-5"
-       aria-hidden="true"
-       xmlns="http://www.w3.org/2000/svg"
-       fill="none"
-       viewBox="0 0 17 14"
-     >
-       <path
-         stroke="currentColor"
-         stroke-linecap="round"
-         stroke-linejoin="round"
-         stroke-width="2"
-         d="M1 1h15M1 7h15M1 13h15"
-       />
-     </svg>
-   </button>
-   <div class="hidden w-full" id="navbar-hamburger">
-     <ul
-       class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700"
-     >
-       <li>
-         <a
-           href="#"
-           class="block py-2 px-3 text-white bg-blue-700 rounded dark:bg-blue-600"
-           aria-current="page"
-           >Home</a
-         >
-       </li>
-       <li>
-         <a
-           href="#"
-           class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-           >Services</a
-         >
-       </li>
-       <li>
-         <a
-           href="#"
-           class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white"
-           >Pricing</a
-         >
-       </li>
-       <li>
-         <a
-           href="#"
-           class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-           >Contact</a
-         >
-       </li>
-     </ul>
-   </div>
- </div>
-</nav>
-<!-- End Navbar -->
-  
-<!-- partial:index.partial.html -->
-<div class="antialiased bg-gradient-to-b flex flex-col font-sans from-black items-stretch justify-center h-screen p-2 to-gray-900 sm:flex-row sm:items-center">
-  <div class="flex flex-col flex-grow items-stretch max-w-2xl min-w-md w-full sm:flex-row sm:h-72 sm:overflow-hidden">
-    <div class="active cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+      <!-- Main Content -->
+      <div class="flex-1 flex flex-col">
+        <header class="bg-gray-900 p-4 flex items-center justify-between">
+          <div class="flex items-center space-x-3 rtl:space-x-reverse">
+            <img src="./images/logo.png" class="h-8" alt="Logo" />
+            <span class="text-lg font-semibold text-white"> Sir . Karabo</span>
+          </div>
+          <button
+            id="menu-toggle"
+            class="text-white text-xl focus:outline-none"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              class="w-8 h-8"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </header>
+
+        <main id="content" class="p-6 flex-1 h-75">
+          <!-- partial:index.partial.html -->
+      <div class="antialiased bg-gradient-to-b flex flex-col font-sans from-black items-stretch justify-center h-screen p-2 to-gray-900 sm:flex-row sm:items-center">
+        <div class="flex flex-col flex-grow items-stretch max-w-4xl min-w-md w-full sm:flex-row sm:h-72 sm:overflow-hidden">
+          <!-- Profile -->
+          <div class="active cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
       <div class="absolute background bg-center bg-cover bg-red-500 bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
       <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
       <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
         <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-red-500 w-10"><i class="fas fa-walking"></i></div>
         <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
-          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8"><a href="#">Profile</a></div>
-          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8"><a href="#">Explore career</a></div>
+          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8"><a href="">Profile</a></div>
+          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8"><a href="">Explore</a></div>
         </div>
       </div>
-    </div>
-    <a>
-
-      <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
-        <div class="absolute background bg-center bg-cover bg-yellow-500 bg-yellow-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
-        <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
-        <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
-          <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-yellow-500 w-10"><a href="#"><i class="fas fa-apple-alt"></i></a></div>
-          <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
-            <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8"><a href="#">Alumni</a></div>
-            <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8"><a href="#">Explore resume</a></div>
           </div>
+          <!-- Resume -->
+          <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+      <div class="absolute background bg-center bg-cover bg-yellow-500 bg-yellow-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
+      <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
+      <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
+        <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-yellow-500 w-10"><i class="fas fa-apple-alt"></i></div>
+        <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
+          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Build</div>
+          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Realize your vision</div>
         </div>
-      </a>
-    </div>
-    <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+      </div>
+          </div>
+          <!-- Projects -->
+          <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
       <div class="absolute background bg-center bg-cover bg-green-500 bg-green-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
       <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
       <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
         <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-green-500 w-10"><i class="fas fa-tree"></i></div>
         <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
-          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Developments</div>
-          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Explore projects</div>
+          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Explore</div>
+          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Discover the world</div>
         </div>
       </div>
-    </div>
-    <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+          </div>
+          <!-- Portfolio Tab -->
+          <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
       <div class="absolute background bg-center bg-cover bg-blue-500 bg-blue-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
       <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
       <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
         <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-blue-500 w-10"><i class="fas fa-tint"></i></div>
         <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
-          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Designs</div>
-          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Explore portfolio</div>
+          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Adapt</div>
+          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Embrace the times</div>
         </div>
       </div>
-    </div>
-    <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+          </div>
+          <!-- Freelance Tab -->
+          <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
       <div class="absolute background bg-center bg-cover bg-purple-500 bg-purple-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
       <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
       <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
         <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-purple-500 w-10"><i class="fas fa-palette"></i></div>
         <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
-          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Branding</div>
-          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Explore freelance</div>
+          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Inspire</div>
+          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Share your potential</div>
         </div>
       </div>
+          </div>    
+          <!-- Freelance Tab -->
+          <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+  <div class="absolute background bg-center bg-cover bg-orange-500 bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
+  <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
+  <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
+    <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-orange-500 w-10">
+      <i class="fas fa-briefcase"></i>
     </div>
-    <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
-      <div class="absolute background bg-center bg-cover bg-white bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
-      <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
-      <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
-        <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-white w-10">
-          <i class="fas fa-shopping-bag"></i>
-        </div>
-        <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
-          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Commerce</div>
-          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Explore products</div>
-        </div>
+    <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
+      <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Freelance</div>
+      <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Take control of your career</div>
+    </div>
+  </div>
+          </div>
+          <!-- Shop Tab -->
+          <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+  <div class="absolute background bg-center bg-cover bg-white bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
+  <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
+  <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
+    <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-white w-10">
+      <i class="fas fa-shopping-bag"></i>
+    </div>
+    <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
+      <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Shop</div>
+      <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Find your style</div>
+    </div>
+  </div>
+          </div>
+          <!-- Contact Tab -->
+          <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+  <div class="absolute background bg-center bg-cover bg-gray-500 bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
+  <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
+  <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
+    <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-gray-500 w-10">
+      <i class="fas fa-envelope"></i>
+    </div>
+    <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
+      <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Contact</div>
+      <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Get in touch</div>
+    </div>
+  </div>
+          </div>
+      <!-- End -->
+  </div>
       </div>
-    </div>
-</div>
 <!-- partial -->
-  <script src='https://cdn.tailwindcss.com'></script><script  src="./script.js"></script>
+        </main>
+      </div>
+    </div>
 
-</body>
+    <script src="./script.js"></script>
+  </body>
 </html>
