@@ -14,7 +14,7 @@
 
 ### Let's Connect
 
-![Preview Image](/images/images.png)
+![Preview Image](/images/image.png)
 
 ## Tech Stack:
 
