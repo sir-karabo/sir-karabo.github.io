@@ -1,5 +1,7 @@
 # Responsive Accordion Menu Website
 
+![Preview Image](/images/img.png)
+
 💙 **Connect with me on LinkedIn** if you'd like me to do work for you like this:
 
 - [@Sir-Karabo](https://www.linkedin.com/in/sir-karabo/)
@@ -12,7 +14,7 @@
 
 ### Let's Connect
 
-![Preview Image](/image.png)
+![Preview Image](/images/images.png)
 
 ## Tech Stack:
 
