@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sir Karabo Nhlamulo Career</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="./images/logo.png" type="image/png" />
+
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -24,11 +29,18 @@
         },
       };
     </script>
+
+    <!-- Font Awesome for icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- External CSS -->
     <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body class="bg-gray-900 text-white">
-    <!-- Sidebar Navigation -->
     <div class="flex h-screen">
       <!-- Sidebar -->
       <nav
@@ -37,58 +49,16 @@
       >
         <div class="flex items-center space-x-3 rtl:space-x-reverse mb-6">
           <img src="./images/logo.png" class="h-8" alt="Logo" />
-             <span class="text-lg font-semibold text-white"> Sir . Karabo</span>
+          <span class="text-lg font-semibold">Sir Karabo</span>
         </div>
         <ul class="space-y-4">
-          <li>
-            <a
-              href="#"
-              class="block py-2 px-4 rounded text-white hover:bg-highlight"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              class="block py-2 px-4 rounded text-white hover:bg-highlight"
-              >Profile</a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              class="block py-2 px-4 rounded text-white hover:bg-highlight"
-              >Resume</a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              class="block py-2 px-4 rounded text-white hover:bg-highlight"
-              >Projects</a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              class="block py-2 px-4 rounded text-white hover:bg-highlight"
-              >Portfolio</a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              class="block py-2 px-4 rounded text-white hover:bg-highlight"
-              >Freelance</a
-            >
-          </li>
-          <li>
-            <a
-              href="#"
-              class="block py-2 px-4 rounded text-white hover:bg-highlight"
-              >Support</a
-            >
-          </li>
+          <li><a href="#" class="block py-2 px-4 rounded hover:bg-highlight">Home</a></li>
+          <li><a href="#" class="block py-2 px-4 rounded hover:bg-highlight">Profile</a></li>
+          <li><a href="#" class="block py-2 px-4 rounded hover:bg-highlight">Resume</a></li>
+          <li><a href="#" class="block py-2 px-4 rounded hover:bg-highlight">Projects</a></li>
+          <li><a href="#" class="block py-2 px-4 rounded hover:bg-highlight">Portfolio</a></li>
+          <li><a href="#" class="block py-2 px-4 rounded hover:bg-highlight">Freelance</a></li>
+          <li><a href="#" class="block py-2 px-4 rounded hover:bg-highlight">Support</a></li>
         </ul>
       </nav>
 
@@ -97,12 +67,9 @@
         <header class="bg-gray-900 p-4 flex items-center justify-between">
           <div class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="./images/logo.png" class="h-8" alt="Logo" />
-            <span class="text-lg font-semibold text-white"> Sir . Karabo</span>
+            <span class="text-lg font-semibold">Sir Karabo</span>
           </div>
-          <button
-            id="menu-toggle"
-            class="text-white text-xl focus:outline-none"
-          >
+          <button id="menu-toggle" class="text-white text-xl focus:outline-none">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -121,115 +88,116 @@
         </header>
 
         <main id="content" class="p-6 flex-1 h-75">
-          <!-- partial:index.partial.html -->
-      <div class="antialiased bg-gradient-to-b flex flex-col font-sans from-black items-stretch justify-center h-screen p-2 to-gray-900 sm:flex-row sm:items-center">
-        <div class="flex flex-col flex-grow items-stretch max-w-4xl min-w-md w-full sm:flex-row sm:h-72 sm:overflow-hidden">
-          <!-- Profile -->
-          <div class="active cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
-      <div class="absolute background bg-center bg-cover bg-red-500 bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
-      <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
-      <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
-        <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-red-500 w-10"><i class="fas fa-walking"></i></div>
-        <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
-          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8"><a href="">Career</a></div>
-          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8"><a href="">Explore Profile Summary</a></div>
-        </div>
-      </div>
-          </div>
-          <!-- Resume -->
-          <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
-      <div class="absolute background bg-center bg-cover bg-yellow-500 bg-yellow-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
-      <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
-      <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
-        <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-yellow-500 w-10"><i class="fas fa-apple-alt"></i></div>
-        <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
-          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Alumni</div>
-          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Explore Online Resume</div>
-        </div>
-      </div>
-          </div>
-          <!-- Projects -->
-          <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
-      <div class="absolute background bg-center bg-cover bg-green-500 bg-green-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
-      <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
-      <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
-        <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-green-500 w-10"><i class="fas fa-tree"></i></div>
-        <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
-          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Projects</div>
-          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Explore Software Engineering</div>
-        </div>
-      </div>
-          </div>
-          <!-- Portfolio Tab -->
-          <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
-      <div class="absolute background bg-center bg-cover bg-blue-500 bg-blue-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
-      <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
-      <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
-        <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-blue-500 w-10"><i class="fas fa-tint"></i></div>
-        <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
-          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Portfolio</div>
-          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Explore Software Development</div>
-        </div>
-      </div>
-          </div>
-          <!-- Freelance Tab -->
-          <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
-      <div class="absolute background bg-center bg-cover bg-purple-500 bg-purple-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
-      <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
-      <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
-        <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-purple-500 w-10"><i class="fas fa-palette"></i></div>
-        <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
-          <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Freelance</div>
-          <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Explore Web Design</div>
-        </div>
-      </div>
-          </div>    
-          <!-- Freelance Tab -->
-          <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
-  <div class="absolute background bg-center bg-cover bg-orange-500 bg-orange-img duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
-  <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
-  <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
-    <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-orange-500 w-10">
-      <i class="fas fa-briefcase"></i>
-    </div>
-    <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
-      <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Support</div>
-      <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Explore Virtual Support</div>
-    </div>
-  </div>
-          </div>
-          <!-- Shop Tab -->
-          <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
-  <div class="absolute background bg-center bg-cover bg-white bg-white-img duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
-  <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
-  <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
-    <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-white w-10">
-      <i class="fas fa-shopping-bag"></i>
-    </div>
-    <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
-      <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Sales</div>
-      <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Explore Online Store</div>
-    </div>
-  </div>
-          </div>
-          <!-- Contact Tab -->
-          <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
-  <div class="absolute background bg-center bg-cover bg-gray-500 bg-gray-img duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
-  <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
-  <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
-    <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-gray-500 w-10">
-      <i class="fas fa-envelope"></i>
-    </div>
-    <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
-      <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Lets Connect</div>
-      <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Get in touch</div>
-    </div>
-  </div>
-          </div>
-      <!-- End -->
-  </div>
-      </div>
-<!-- partial -->
+            <!-- partial:index.partial.html -->
+            <div class="antialiased bg-gradient-to-b flex flex-col font-sans from-black items-stretch justify-center h-screen p-2 to-gray-900 sm:flex-row sm:items-center">
+               <div class="flex flex-col flex-grow items-stretch max-w-4xl min-w-md w-full sm:flex-row sm:h-72 sm:overflow-hidden">
+           <!-- Profile -->
+            <div class="active cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+                <div class="absolute background bg-center bg-cover bg-red-500 bg-red-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
+                <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
+                <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
+                  <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-red-500 w-10"><i class="fas fa-walking"></i></div>
+                  <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
+                    <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8"><a href="">Career</a></div>
+                    <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8"><a href="">Explore Profile Summary</a></div>
+                  </div>
+                </div>
+                    </div>
+                    <!-- Resume -->
+                    <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+                <div class="absolute background bg-center bg-cover bg-yellow-500 bg-yellow-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
+                <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
+                <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
+                  <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-yellow-500 w-10"><i class="fas fa-apple-alt"></i></div>
+                  <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
+                    <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Alumni</div>
+                    <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Explore Online Resume</div>
+                  </div>
+                </div>
+                    </div>
+                    <!-- Projects -->
+                    <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+                <div class="absolute background bg-center bg-cover bg-green-500 bg-green-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
+                <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
+                <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
+                  <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-green-500 w-10"><i class="fas fa-tree"></i></div>
+                  <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
+                    <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Projects</div>
+                    <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Explore Software Engineering</div>
+                  </div>
+                </div>
+                    </div>
+                    <!-- Portfolio Tab -->
+                    <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+                <div class="absolute background bg-center bg-cover bg-blue-500 bg-blue-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
+                <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
+                <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
+                  <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-blue-500 w-10"><i class="fas fa-tint"></i></div>
+                  <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
+                    <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Portfolio</div>
+                    <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Explore Software Development</div>
+                  </div>
+                </div>
+                    </div>
+
+                    <!-- Freelance Tab -->
+                    <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+                <div class="absolute background bg-center bg-cover bg-purple-500 bg-purple-img bg-no-repeat duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
+                <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
+                <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
+                  <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-purple-500 w-10"><i class="fas fa-palette"></i></div>
+                  <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
+                    <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Freelance</div>
+                    <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Explore Web Design</div>
+                  </div>
+                </div>
+                    </div>    
+                    <!-- Freelance Tab -->
+                    <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+            <div class="absolute background bg-center bg-cover bg-orange-500 bg-orange-img duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
+            <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
+            <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
+              <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-orange-500 w-10">
+                <i class="fas fa-briefcase"></i>
+              </div>
+              <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
+                <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Support</div>
+                <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Explore Virtual Support</div>
+              </div>
+            </div>
+                    </div>
+                    <!-- Shop Tab -->
+                    <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+            <div class="absolute background bg-center bg-cover bg-white bg-white-img duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
+            <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
+            <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
+              <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-white w-10">
+                <i class="fas fa-shopping-bag"></i>
+              </div>
+              <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
+                <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Sales</div>
+                <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Explore Online Store</div>
+              </div>
+            </div>
+                    </div>
+                    <!-- Contact Tab -->
+                    <div class="undefined cursor-pointer duration-700 ease-in-out flex-grow m-2 min-h-14 min-w-14 overflow-hidden pane relative rounded-3xl transition-all">
+            <div class="absolute background bg-center bg-cover bg-gray-500 bg-gray-img duration-700 ease-in-out inset-0 scale-105 transition-all z-10"></div>
+            <div class="absolute bg-gradient-to-b bottom-0 duration-700 ease-in-out from-transparent h-1/2 inset-x-0 opacity-0 shadow to-black transform transition-all translate-y-1/2 z-20"></div>
+            <div class="absolute bottom-0 duration-700 ease-in-out flex label left-0 mb-2 ml-3 sm:mb-3 sm:ml-2 transition-all z-30">
+              <div class="bg-gray-900 flex h-10 icon items-center justify-center mr-3 rounded-full text-gray-500 w-10">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="content flex flex-col justify-center leading-tight text-white whitespace-pre">
+                <div class="ease-in-out font-bold duration-700 opacity-0 relative transform transition-all translate-x-8">Lets Connect</div>
+                <div class="delay-100 duration-700 ease-in-out opacity-0 relative transform transition-all translate-x-8">Get in touch</div>
+              </div>
+            </div>
+                    </div>
+                <!-- End -->
+            </div>
+                </div>
+          <!-- partial -->
         </main>
       </div>
     </div>
