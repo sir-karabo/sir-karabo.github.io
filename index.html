@@ -10,26 +10,7 @@
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              primary: "#1a202c", // Dark gray
-              secondary: "#2d3748", // Slightly lighter gray
-              accent: "#4a5568", // Accent color
-              highlight: "#2b6cb0", // Blue highlight
-              red: "#f56565", // Red color for sections
-              yellow: "#ecc94b", // Yellow color for sections
-              green: "#48bb78", // Green color for sections
-              blue: "#4299e1", // Blue color for sections
-              purple: "#9f7aea", // Purple color for sections
-            },
-          },
-        },
-      };
-    </script>
-
+   
     <!-- Font Awesome for icons -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -49,7 +30,7 @@
       >
         <div class="flex items-center space-x-3 rtl:space-x-reverse mb-6">
           <img src="./images/logo.png" class="h-8" alt="Logo" />
-          <span class="text-lg font-semibold">Sir Karabo</span>
+          <!-- <span class="text-lg font-semibold"></span> -->
         </div>
         <ul class="space-y-4">
           <li><a href="index.html" class="block py-2 px-4 rounded hover:bg-highlight">Home</a></li>
@@ -65,10 +46,11 @@
 
       <!-- Main Content -->
       <div class="flex-1 flex flex-col">
+
         <header class="bg-gray-900 p-4 flex items-center justify-between">
           <div class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="./images/logo.png" class="h-8" alt="Logo" />
-            <span class="text-lg font-semibold">Sir Karabo</span>
+            <!-- <span class="text-lg font-semibold">Sir Karabo</span> -->
           </div>
           <button id="menu-toggle" class="text-white text-xl focus:outline-none">
             <svg
@@ -200,6 +182,8 @@
                 </div>
           <!-- partial -->
         </main>
+
+        
       </div>
     </div>
 

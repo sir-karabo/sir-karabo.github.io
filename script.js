@@ -38,6 +38,15 @@ tailwind.config = {
       colors: {
         gray: {
           900: "#0f1011",
+          primary: "#1a202c", // Dark gray
+          secondary: "#2d3748", // Slightly lighter gray
+          accent: "#4a5568", // Accent color
+          highlight: "#2b6cb0", // Blue highlight
+          red: "#f56565", // Red color for sections
+          yellow: "#ecc94b", // Yellow color for sections
+          green: "#48bb78", // Green color for sections
+          blue: "#4299e1", // Blue color for sections
+          purple: "#9f7aea", // Purple color for sections
         },
       },
 
